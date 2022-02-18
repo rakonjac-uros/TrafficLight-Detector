@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding: utf-8
 # created by hevlhayt@foxmail.com 
 # Date: 2016/1/15 
@@ -109,7 +109,7 @@ def detect(filepath, file, method):
     print ("Detect - load time:", time.time() - t2)
     #numpy_horizontal_concat = np.concatenate((cv2.cvtColor(img_erosion, cv2.COLOR_GRAY2BGR), cimg), axis=1)
     
-    #cv2.imwrite(path+'//result//'+file, cimg)
+    cv2.imwrite(path+'//result//'+file, cimg)
     #cv2.imshow('maskr', maskrr)
     #cv2.imshow('erode', img_erosion)
     #cv2.imshow('dialate', img_dilation)
